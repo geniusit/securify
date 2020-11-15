@@ -1,0 +1,25 @@
+{
+  "name": "@app/client",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@app/components": "0.0.0",
+    "@app/config": "0.0.0",
+    "@app/lib": "0.0.0",
+    "dayjs": "^1.9.6",
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "@types/react": "^16.9.56",
+    "typescript": "^4.0.5"
+  }
+}

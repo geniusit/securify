@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport * as React from \"react\";\n\nconst Home = () => {\n  return /*#__PURE__*/_jsx(React.Fragment, {\n    children: \"taaaaaaaaaaaaaaaaaaaaest\"\n  });\n};\n\nexport default Home;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,28 @@
+{
+  "name": "securify",
+  "private": true,
+  "scripts": {
+    "setup:packages": "lerna run setup",
+    "setup": "yarn",
+    "clean": "node ./scripts/clean.js",
+    "start": "node ./scripts/start.js",
+    "build": "lerna run build",
+    "dev": "lerna run dev",
+    "--shortcuts to run commands in workspaces--": "",
+    "client": "yarn workspace @app/client",
+    "components": "yarn workspace @app/components",
+    "db": "yarn workspace @app/db"
+  },
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": {
+    "packages": [
+      "@app/*"
+    ]
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.5"
+  }
+}
