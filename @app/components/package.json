@@ -2,11 +2,14 @@
     "name": "@app/components",
     "private": true,
     "version": "0.0.0",
+    "scripts" : {
+      "test": "echo testing components with version $npm_package_version"
+    },
     "dependencies": {
         
-      },
-      "devDependencies": {
+    },
+    "devDependencies": {
        
-      }
+    }
   }
   

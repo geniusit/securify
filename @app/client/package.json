@@ -5,7 +5,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "test": "echo testing client with version $npm_package_version"
   },
   "dependencies": {
     "@app/components": "0.0.0",

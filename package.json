@@ -8,10 +8,16 @@
     "start": "node ./scripts/start.js",
     "build": "lerna run build",
     "dev": "lerna run dev",
+    "test": "lerna run test",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
+
     "--shortcuts to run commands in workspaces--": "",
     "client": "yarn workspace @app/client",
     "components": "yarn workspace @app/components",
-    "db": "yarn workspace @app/db"
+    "db": "yarn workspace @app/db",
+
+    "commit": "git-cz"
   },
   "dependencies": {
     "lerna": "^3.22.1"
@@ -22,7 +28,15 @@
     ]
   },
   "devDependencies": {
+    "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "^3.3.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.0.5"
+  },
+
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
