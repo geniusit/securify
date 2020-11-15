@@ -1,7 +1,7 @@
 {
   "name": "@app/client",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -9,8 +9,8 @@
     "test": "echo testing client with version $npm_package_version"
   },
   "dependencies": {
-    "@app/components": "0.0.0",
-    "@app/config": "0.0.0",
+    "@app/components": "^0.1.0",
+    "@app/config": "^0.1.0",
     "@app/lib": "0.0.0",
     "dayjs": "^1.9.6",
     "next": "^10.0.1",
